@@ -33,8 +33,8 @@ faulthandler.enable(file=sys.stderr, all_threads=False)
 
 import comfy_aimdo.control
 
-if enables_dynamic_vram():
-    comfy_aimdo.control.init()
+#if enables_dynamic_vram():
+#    comfy_aimdo.control.init()
 
 if os.name == "nt":
     os.environ['MIMALLOC_PURGE_DELAY'] = '0'
