@@ -6,6 +6,11 @@ Windows-only version of ComfyUI which uses AMD's official ROCm and PyTorch libra
 
 (Supported GPUs atm : RDNA1, RDNA2 (everything except mobile GPUs and APUs) , RDNA3 and RDNA4)
 
+* on rdna2 these are the supported & unsupported models :
+
+<img width="755" height="207" alt="image" src="https://github.com/user-attachments/assets/8683287c-16d4-4b3b-b238-7aab5f4aa830" />
+
+
 # NEW #
 * Added RDNA1 support.
 * Made gpu detection better for windows 11.
